@@ -1,0 +1,38 @@
+{
+  "name": "sentiment_visualizing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "bot": "nodemon bot.js",
+    "client": "npm start --prefix client",
+    
+    "dev": "concurrently \"npm run bot\" \"npm run client\"",
+    "build":"cd client && npm run build",
+    
+	"install-client":"cd client && npm install",
+	"heroku-postbuild": "npm run install-client && npm run build"
+  },
+  "author": "Jos",
+  "license": "ISC",
+  "dependencies": {
+    "@vitalets/google-translate-api": "^3.0.0",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "cookie-session": "^1.4.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "google-translate": "^3.0.0",
+    "mongoose": "^5.9.20",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-twitter": "^1.0.4",
+    "sentiment": "^5.0.2",
+    "tunnel": "0.0.6",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
