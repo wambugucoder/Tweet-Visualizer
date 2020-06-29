@@ -18,7 +18,7 @@ app.get('/auth/google/callback',
 passport.authenticate('google', { failureRedirect: '/success' }),
 function(req, res) {
   // Successful authentication, redirect to Analyze.
-  res.redirect('/analyze');
+  res.redirect('http://localhost:3000/analyze');
 });
 //TWITTER OAUTH
 app.get('/auth/twitter',
@@ -28,7 +28,7 @@ app.get('/auth/twitter/callback',
   passport.authenticate('twitter', { failureRedirect: '/success' }),
   function(req, res) {
     // Successful authentication, redirect home.
-    res.redirect('/analyze');
+    res.redirect('http://localhost:3000/analyze');
     
   });
 //GET USER DETAILS

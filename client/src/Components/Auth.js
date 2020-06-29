@@ -17,7 +17,7 @@ class Auth extends Component {
           <h1 style={{fontSize:45,fontFamily:"Roboto"}}>Twitter Sentiment Visualizer</h1>
       <div className="container">
       <div align="center">
-      <a href="/auth/google">
+      <a href="http://localhost:5000/auth/google">
       <GoogleButton
       type="dark" // can be light or dark
  
@@ -29,7 +29,7 @@ class Auth extends Component {
      <div className="container">OR</div>
       <div className="container">
       <div align="center">
-      <a href="/auth/twitter">
+      <a href="http://localhost:5000/auth/twitter">
      <TwitterLogin
       buttonTheme="dark"
     />
