@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 import GoogleButton from 'react-google-button'
 import TwitterLogin from "react-twitter-login";
 
@@ -16,7 +17,7 @@ class Auth extends Component {
           <h1 style={{fontSize:45,fontFamily:"Roboto"}}>Twitter Sentiment Visualizer</h1>
       <div className="container">
       <div align="center">
-      <a href="http://localhost:5000/auth/google">
+      <a href="/auth/google">
       <GoogleButton
       type="dark" // can be light or dark
  
@@ -28,7 +29,7 @@ class Auth extends Component {
      <div className="container">OR</div>
       <div className="container">
       <div align="center">
-      <a href="http://localhost:5000/auth/twitter">
+      <a href="/auth/twitter">
      <TwitterLogin
       buttonTheme="dark"
     />
