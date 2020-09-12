@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "google-translate": "^3.0.0",
-    "mongoose": "^5.9.20",
+    "mongoose": "^5.10.5",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "passport-twitter": "^1.0.4",
