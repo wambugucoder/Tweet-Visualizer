@@ -1534,6 +1534,10 @@ patch:
         patched: '2020-09-12T08:21:41.653Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > @babel/helper-module-transforms > @babel/helper-replace-supers > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
         patched: '2020-09-12T08:21:41.653Z'
+
+    - snyk > snyk-docker-plugin > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2020-09-12T09:23:05.512Z'
+
     - '@testing-library/jest-dom > lodash':
         patched: '2020-09-12T09:23:42.694Z'
     - react-scripts > @babel/core > lodash:
@@ -1726,3 +1730,4 @@ patch:
         patched: '2020-09-12T09:23:42.694Z'
     - react-scripts > jest > jest-cli > @jest/core > @jest/reporters > jest-runtime > jest-config > @jest/test-sequencer > jest-runner > jest-jasmine2 > @jest/environment > @jest/transform > @babel/core > lodash:
         patched: '2020-09-12T09:23:42.694Z'
+
