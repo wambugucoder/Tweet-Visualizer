@@ -22,7 +22,7 @@
     "react-twitter-login": "^1.1.2",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "snyk": "^1.393.0"
+    "snyk": "^1.393.1"
   },
   "scripts": {
     "start": "react-scripts start",
