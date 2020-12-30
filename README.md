@@ -9,7 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 Prerequisites
 
 Node.JS and npm must be installed. Download and install them from here.
-Installing
+Installing:
 
 Follow these steps to run this project in your local computer.
 $ Firstly, Fork this repo
