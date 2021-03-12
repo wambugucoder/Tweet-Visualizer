@@ -7,12 +7,10 @@
     "start": "node bot.js",
     "bot": "nodemon bot.js",
     "client": "npm start --prefix client",
-    
     "dev": "concurrently \"npm run bot\" \"npm run client\"",
-    "build":"cd client && npm run build",
-    
-	"install-client":"cd client && npm install",
-	"heroku-postbuild": "npm run install-client && npm run build"
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build"
   },
   "author": "Jos",
   "license": "ISC",
@@ -24,7 +22,7 @@
     "express": "^4.17.1",
     "fs": "0.0.2",
     "google-translate": "^3.0.0",
-    "mongoose": "^5.11.3",
+    "mongoose": "^5.12.0",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
     "passport-twitter": "^1.0.4",
