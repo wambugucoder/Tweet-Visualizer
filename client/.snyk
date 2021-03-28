@@ -1760,3 +1760,5 @@ patch:
         patched: '2020-11-30T07:32:18.041Z'
     - snyk > snyk-python-plugin > snyk-poetry-lockfile-parser > @snyk/cli-interface > @snyk/dep-graph > graphlib > lodash:
         patched: '2020-11-30T07:32:18.041Z'
+    - react-scripts > eslint-plugin-testing-library > @typescript-eslint/experimental-utils > @typescript-eslint/typescript-estree > lodash:
+        patched: '2021-03-28T11:19:49.518Z'
