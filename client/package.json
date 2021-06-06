@@ -9,7 +9,7 @@
     "axios": "^0.21.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-google-button": "^0.7.1",
+    "react-google-button": "0.7.2",
     "react-google-login": "^5.1.22",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
