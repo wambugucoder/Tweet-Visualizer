@@ -11,7 +11,7 @@
     "react-dom": "^16.14.0",
     "react-google-button": "^0.7.1",
     "react-google-login": "^5.1.22",
-    "react-redux": "^7.2.1",
+    "react-redux": "7.2.9",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-twitter-login": "^1.2.3",
