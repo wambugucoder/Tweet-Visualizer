@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.0",
@@ -13,11 +13,11 @@
     "react-google-login": "^5.1.22",
     "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "5.0.0",
     "react-twitter-login": "^1.2.3",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
-    "snyk": "^1.431.2"
+    "snyk": "^1.996.0"
   },
   "scripts": {
     "start": "react-scripts start",
