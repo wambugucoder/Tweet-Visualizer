@@ -23,7 +23,7 @@
     "fs": "0.0.2",
     "google-translate": "^3.0.0",
     "mongoose": "^5.11.3",
-    "passport": "^0.4.1",
+    "passport": "^0.7.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-twitter": "^1.0.4",
     "sentiment": "^5.0.2",
